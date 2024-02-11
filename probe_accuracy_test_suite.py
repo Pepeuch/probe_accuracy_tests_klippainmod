@@ -45,7 +45,7 @@ import pandas
 
 MOONRAKER_URL = "http://localhost:7125"
 KLIPPY_LOG = "~/klipper_logs/klippy.log"
-DATA_DIR = "/tmp"
+DATA_DIR = "~/printer_data/config/K-ShakeTune_results/probe_accuracy_tests"
 RUNID = datetime.now().strftime("%Y%m%d_%H%M")
 CLEAR_LINE = "\033[1A\x1b[2K"
 
